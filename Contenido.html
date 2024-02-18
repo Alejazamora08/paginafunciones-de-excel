@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+<title>Contenido</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Menú de navegación del sitio -->
+<ul class="navbar">
+<li><a href="Funciones de excel.html">Inicio</a>
+<li>Contenido
+<li><a href="Ejercicios.html">Ejercicios</a>
+<li><a href="Quiz.html">Quiz</a>
+</ul>
+
+<ul>
+<li><a href="Funciones de excel.html">Inicio</a>
+<li><a href="Contenido.html">Contenido</a>
+<li><a href="Ejercicios.html">Ejercicios</a>
+<li><a href="Quiz.html">Quiz</a>
+</ul>
+
+
+<!-- Contenido principal -->
+<h1>Contenido</h1>
+
+<p>Las funciones en Excel se utilizan para una variedad de prop&oacute;sitos, como sumar n&uacute;meros, encontrar promedios, buscar y extraer informaci&oacute;n, realizar operaciones matem&aacute;ticas avanzadas, manipular texto, y mucho m&aacute;s. Estas funciones est&aacute;n diseñadas para ahorrarte tiempo y minimizar errores al realizar tareas repetitivas o complicadas.</p> 
+<p>&#128202 &#128202 &#128202 &#128202 </p>
+<p>Existen cientos de funciones en Excel, cada una con su prop&oacute;sito &uacute;nico. Y aqui te las enseñaremos</p>
+
+<img src="Img/funciones.png" width="350" height="200">
+<h6> <font size="5"> Funciones de excel &#128187 </font></h6>
+<table style="width:100%" border=5>
+  <tr>
+    <th>Nombre</th>
+    <th>Descripcion</th> 
+    <th>Uso</th>
+	<th>Formula</th>
+	<th>Ejemplo</th>
+  </tr>
+  <tr>
+    <td>Contar</td>
+    <td>La función CONTAR cuenta el n&uacute;mero de celdas que contienen n&uacute;meros en un rango especificado.</td> 
+	<td>Se utiliza para contar la cantidad de celdas que tienen valores num&eacute;ricos en un rango. Por ejemplo, si quieres contar cu&aacute;ntas celdas en el rango A1:A10 contienen n&uacute;meros </td>
+	<td>=CONTAR(A1:A10)</td>
+    <td><img src="Img/contar.png" width="350" height="250">
+	
+  </tr>
+  <tr>
+    <td>Concatenar</td>
+    <td>La funci&oacute;n CONCATENAR combina m&uacute;ltiples cadenas de texto en una sola cadena</td> 
+	<td>Se utiliza para unir el contenido de varias celdas o texto</td>
+	<td>=CONCATENAR(A1, " ", B1)</td>
+    <td><img src="Img/concatenar.png" width="350" height="250">
+  </tr>
+  <tr>
+  <td>Hoy</td>
+  <td>La funci&oacute;n HOY devuelve la fecha actual</td>
+  <td>Se utiliza para obtener la fecha actual sin la necesidad de ingresarla manualmente.</td>
+  <td>=HOY()</td>
+  <td><img src="Img/hoy.png" width="350" height="250">
+  </tr>
+  <tr>
+  <td>Buscarh</td>
+  <td> La funci&oacute;n BUSCARH busca un valor en la primera fila de un rango y devuelve un valor en la misma columna de una fila especificada</td>
+  <td>Similar a BUSCARV, pero opera en horizontal. Es &uacute;til para buscar informaci&oacute;n en tablas que est&aacute;n organizadas por filas</td>
+  <td>=BUSCARH("Producto", A1:Z10, 3, FALSO)</td>
+  <td><img src="Img/buscarh.png" width="350" height="250">
+  </tr>
+</table>
+
+<h6><font size="5"> Mas funciones &#128187 </font></h6>
+<table style="width:100%" border=5>
+<p>Adem&aacute;s de las funciones básicas que te hemos mencionado, hay varias otras funciones en Excel que pueden ser de gran utilidad dependiendo de tus necesidades específicas. Aquí te proporcionamos informaci&oacute;n adicional sobre algunas funciones m&aacute;s avanzadas</p>
+  <tr>
+     <th>Nombre</th>
+    <th>Descripcion</th> 
+    <th>Uso</th>
+	<th>Formula</th>
+	<th>Ejemplo</th>
+	
+  </tr>
+  <tr>
+    <td>Sumar.si.conjunto</td>
+    <td>Esta funci&oacute;n suma los valores que cumplen con un conjunto espec&iacute;fico de condiciones.</td>
+	<td>&uacute;til cuando necesitas sumar valores que cumplen con m&uacute;ltiples criterios.</td>
+	<td>=SUMAR.SI.CONJUNTO(RangoDeIngresos, ">1000", RangoDeMeses)</td>
+	<td><img src="Img/sumarsiconjunto.png" width="350" height="150"></td>
+</tr>
+
+  <tr>
+    <td>Indice y Coincidir</td>
+    <td>Utilizando estas funciones en conjunto, puedes buscar y recuperar un valor en una tabla mediante una fila y columna espec&iacute;ficas</td> 
+	<td>&uacute;til para buscar valores en grandes conjuntos de datos.</td>
+	<td>=ÍNDICE(RangoDePrecios, COINCIDIR("NombreProducto", RangoDeNombres, 0))</td>
+	<td><img src="Img/indiceycoincidir.png" width="450" height="250">
+  </tr>
+  
+   <tr>
+    <td>Si.error</td>
+    <td>Esta funci&oacute;n permite gestionar errores en una f&oacute;rmula, devolviendo un valor predeterminado si se encuentra un error</td> 
+	<td>Ayuda a manejar situaciones donde podr&iacute;a haber errores, proporcionando un valor alternativo</td>
+	<td>=SI.ERROR(A1/B1, "Error en la división")</td>
+ <td><img src="Img/sierror.png" width="450" height="250">
+  </tr>
+  
+<tr>
+    <td>Filtrar</td>
+    <td>La funci&oacute;n FILTRAR permite filtrar datos bas&aacute;ndose en criterios espec&iacute;ficos.</td> 
+	<td>Es &uacute;til para extraer datos que cumplen con ciertas condiciones.</td>
+	<td>=FILTRAR(RangoDeDatos, Criterios)</td>
+    <td><img src="Img/filtrar.png" width="450" height="250">
+  </tr>
+</table>
+<p>Estas funciones son solo ejemplos, pero muestran la versatilidad y potencia que las funciones de Excel ofrecen para manipular y analizar datos de manera avanzada. La elecci&oacute;n de funciones depender&aacute; de la naturaleza de tus datos y de las operaciones que necesitas realizar.</p>
+
+<!-- Firma y fecha de la página, ¡sólo por cortesía! -->
+<address>Actualizada el 17/02/2024<br>
+By: Alejandra Zamora.</address>
+
+</body>
+</html>

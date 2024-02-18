@@ -1,0 +1,83 @@
+<HTML>
+<HEAD>
+<TITLE>Quiz</TITLE>
+<LINK rel="stylesheet" href="Style.css">
+</HEAD>
+<BODY>
+<!-- Menú de navegación del sitio -->
+<ul class="navbar">
+<li><a href="Funciones de excel.html">Inicio</a>
+<li><a href="Contenido.html">Contenido</a>
+<li><a href="Ejercicios.html">Ejercicios</a>
+<li>Quiz
+</ul>
+<div class="frmTitle">
+<H1 class="frm">Quiz</H1>
+</div>
+<HR>
+
+<form>
+
+
+
+<fieldset>
+<legend> Informacion personal </legend>
+<p><label>Primer nombre <input class="info"></label>&nbsp;&nbsp;&nbsp;<label>Segundo nombre <input class="info"></label></p>
+<p><label>Identificacion <input class="info" type="tel"></label>&nbsp;&nbsp;&nbsp;
+<label>E-mail: <input class="info" type=email></label></p>
+
+</fieldset>
+<p>Despues de haber realizado el ejercicio anterior, responde las siguientes preguntas y veremos que tan bien entendiste el tema</p>
+<fieldset>
+<legend> Primer punto </legend>
+<p>A.Cómo sumar los valores de las celdas A1 a A5</p>
+
+<p><label> <input type=radio name=size> =SUMA(A1:A5) </label></p>
+<p><label> <input type=radio name=size> =SUM(A1:A5) </label></p>
+<p><label> <input type=radio name=size> =ADD(A1:A5) </label></p>
+
+<P>B.Cómo restar el valor de la celda B1 de B2</P>
+<p><label> <input type=checkbox> =RESTA(B1, B2) </label></p>
+<p><label> <input type=checkbox> =B2 - B1 </label></p>
+<p><label> <input type=checkbox> =SUBTRACT(B1, B2)</label></p>
+
+</fieldset>
+<fieldset>
+<legend>Segundo punto</legend>
+<p>Cómo calcular el promedio de los valores en las celdas C1 a C10</p>
+<p><label> <input type=radio name=size> =AVERAGE(C1:C10) </label></p>
+<p><label> <input type=radio name=size> =PROMEDIO(C1:C10) </label></p>
+<p><label> <input type=radio name=size> =MEDIA(C1:C10)</label></p>
+</fieldset>
+
+<fieldset>
+<legend>Tercer punto</legend>
+<p>Cómo usar la función SI para verificar si el valor en la celda D1 es mayor que 50 y mostrar "Aprobado" si es verdadero y "Reprobado" si es falso</p>
+<p><label> <input type=radio name=size> =SI(D1 > 50, "Aprobado", "Reprobado") </label></p>
+<p><label> <input type=radio name=size> =IF(D1 > 50, "Aprobado", "Reprobado") </label></p>
+<p><label> <input type=radio name=size> =CONDICIONAL(D1 > 50, "Aprobado", "Reprobado")</label></p>
+</fieldset>
+<p><label>Dejanos saber como te sentiste con este mini curso de funciones de excel <textarea></textarea></label></p>
+<fieldset>
+<legend>Importante</legend>
+<p>¡Recuerda que la practica es un factor importante para que avances en excel!</p>
+</fieldset>
+
+
+<br>
+<div class="center"><button class="button button1" onClick="alert('He finished his quiz successfully./Termino su quiz con exito');">Terminar intento</button></div>
+</form>
+
+
+
+
+
+</BODY>
+</HTML>
+
+
+
+
+
+
+
